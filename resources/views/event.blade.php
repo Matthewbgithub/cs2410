@@ -55,7 +55,7 @@ $likes = $result['likes'];
 			</div>
 		</div>
 		<div class="event-details">
-			<?php if($event->hyperlink!=null){ ?>
+			<?php if($event->venue!=null){ ?>
             	<p>Location:</p>
             	<div class="event-venue"><a target="_blank" href="https://maps.google.com/?q={{ $event->venue }}">{{$event->venue}}</a></div>
 			<?php } ?>
